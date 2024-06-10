@@ -7,3 +7,5 @@ matplotlib
 modelscope
 sentencepiece
 timm
+einops
+tiktoken
