@@ -1,0 +1,16 @@
+pytorch
+huggingface-hub
+transformers
+psutil
+accelerate
+streamlit
+matplotlib
+modelscope
+sentencepiece
+timm
+markdown2
+xlsxwriter
+gradio
+einops
+tiktoken
+streamlit
