@@ -4,8 +4,8 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, AutoModel
  
  
-base_path = './demo_model'
-os.system(f'git clone https://code.openxlab.org.cn/xzyun2011/xtuner_demo.git ./')
+base_path = './xtuner_demo/demo_model'
+os.system(f'git clone https://code.openxlab.org.cn/xzyun2011/xtuner_demo.git')
 os.system(f'cd {base_path} && git lfs pull')
  
 tokenizer = AutoTokenizer.from_pretrained(base_path,trust_remote_code=True)
